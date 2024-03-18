@@ -15,12 +15,22 @@
 * {
     margin: 0;
 }
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: white;
+}
+::-webkit-scrollbar-thumb {
+    background: #FFC80B
+}
 header{
     background-color: black;
-    color: white;
     text-align: center;
 }
 header h1{
+    color: #FFC80B;
     font-size: 7vw;
     padding-top: 50px;
     padding-bottom: 4px;
@@ -34,7 +44,8 @@ header p{
     font-family: 'subtitulo';
 }
 a{
-    color: white;
+    color: #AB1800;
+    font-weight: bolder;
     text-decoration: none;
     transition: 200ms ease-in-out;
 }
@@ -77,5 +88,5 @@ section.img#img02{
 footer{
     background-color: black;
     text-align: center;
-    color: white;
+    color: #FFC80B;
 }
