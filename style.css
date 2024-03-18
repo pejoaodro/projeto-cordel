@@ -18,19 +18,17 @@
 header{
     background-color: black;
     color: white;
-    height: 196px;
-    max-width: 100%;
     text-align: center;
 }
 header h1{
-    font-size: 4em;
+    font-size: 7vw;
     padding-top: 50px;
     padding-bottom: 4px;
     font-family: 'titulo';
 }
 header p{
     color: white;
-    font-size: 1.2em;
+    font-size: 1.9vw;
     font-family: 'subtitulo';
     padding-bottom: 50px;
     font-family: 'subtitulo';
@@ -45,26 +43,36 @@ a:hover{
     border: 2px solid;
 }
 section{
-    position: abo;
     min-height: 100vh;
+    background-size: cover;
 }
 section p{
     padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-bottom: 8vh;
     padding-left: 30px;
     font-size: 3.5vw;
     font-weight: bolder;
     font-family: 'verso';
     line-height: 2em;
 }
+section.img{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.477);
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+}
 section.img p{
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.324);
-    background-position: bottom center;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: rgba(0, 0, 0, 0.162);
+    text-shadow: 1px 1px 0px black;
 }
-section.img#img01{
-    color: white;
-    background-image: url(imgs/background001.jpg);
+section.img#img01{    background-image: url(imgs/background001.jpg);
+    background-position: right bottom;
+}
+section.img#img02{
+    background-image: url(imgs/background002.jpg);
 }
 footer{
     background-color: black;
